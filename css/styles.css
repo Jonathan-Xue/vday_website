@@ -18,12 +18,12 @@
 
 @font-face {
     font-family: 'BerkshireSwash';
-    src: url('../BerkshireSwash-Regular.ttf') format('truetype');
+    src: url('../resources/fonts/BerkshireSwash-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Inconsolata';
-    src: url('../Inconsolata.ttf') format('truetype');
+    src: url('../resources/fonts/Inconsolata.ttf') format('truetype');
 }
 
 .section {  
@@ -48,8 +48,8 @@
 }
 
 .section .caption {
-    font-family: BerkshireSwash;
-    font-size: 24pxpx;
+    font-family: Inconsolata;
+    font-size: 18px;
 }
 
 /* Landing Page */
@@ -73,7 +73,7 @@
 /* Typewriter */
 .typewriter {
 	display: inline-block;
-    font-family: 'Inconsolata';
+    font-family: Inconsolata;
     font-size: 24px;
     margin: 0.5em;
 }
