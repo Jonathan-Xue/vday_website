@@ -39,17 +39,17 @@
 
 .section #title {
     font-family: BerkshireSwash;
-    font-size: 108px;
+    font-size: 7em;
 }
 
 .section .text {
     font-family: BerkshireSwash;
-    font-size: 48px;
+    font-size: 3em;
 }
 
 .section .caption {
     font-family: Inconsolata;
-    font-size: 18px;
+    font-size: 1.25em;
 }
 
 /* Landing Page */
@@ -100,28 +100,37 @@
 
 /* Typewriter */
 .typewriter {
-	display: inline-block;
-    font-family: Inconsolata;
-    font-size: 24px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0.5em;
 }
 
-.typewriter-text {
-    border-right: 4px solid var(--peach);
+.typewriter p {
+    font-family: Inconsolata;
+    font-size: 24px;
     letter-spacing: 0;
     overflow: hidden;
-    white-space: nowrap;
-    animation: 
-       typing 3s steps(60, end), 
-       blink .75s step-end infinite;
+    text-align: center;;
 }
 
-@keyframes typing {
-    from { width: 0% }
-    to { width: 100% }
+.typewriter .typewriter-text {
+    letter-spacing: 0;
+}
+
+.cursor {
+    display: inline-block;
+    width: 0.125em;
+    margin-left: 0.125em;
+
+    animation: blink 1s infinite;
+    background-color: var(--peach);
 }
 
 @keyframes blink {
-    from, to { border-color: transparent }
-    50% { border-color: var(--peach); }
+    0% { background-color: var(--peach); }
+    49% { background-color: var(--peach); }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100% { background-color: var(--peach); }
 }
