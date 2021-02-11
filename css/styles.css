@@ -70,6 +70,34 @@
     color: var(--peach);
 }
 
+/* Webcam */
+#webcam {
+	height: 62.5%;
+	width: 50%;
+    margin: 0.5em;
+}
+
+#webcam #video {
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
+#webcam #overlay {
+	background-color: var(--peach);
+    object-fit: cover;
+
+    position: absolute;
+    height: 62.5%;
+    width: 50%;
+    z-index: 1;
+}
+
+#webcam-caption {
+    visibility: hidden;
+}
+
 /* Typewriter */
 .typewriter {
 	display: inline-block;
