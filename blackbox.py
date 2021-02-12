@@ -1,6 +1,17 @@
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 
-# GIVE
+# ------------------------------------------------ EASTER EGG ------------------------------------------------
+# Uh oh! It seems like a little fox has jumped into Jonathan's life and scrambled up his priorities.
+# 
+# A variation of the Caesar Cipher is necessary to help decrypt the mess. Each letter in the original document
+# has been shifted backwards by a multitude (from one to twenty-fix) of its index. For example, the encrypted
+# string "abcd" decrypts into "adgj" assuming a multitude of two. String indices start from zero. The multiple
+# is constant for every character in the string. Please help Jonathan figure out what he should be spending his
+# time on!
+# 
+# Encrypted String: awfblxnwy
+
+# blackbox.py
 plt.gca().axes.xaxis.set_visible(False)
 plt.gca().axes.yaxis.set_visible(False)
 fig = plt.gcf()
