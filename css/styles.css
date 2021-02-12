@@ -52,6 +52,40 @@
     font-size: 1.25em;
 }
 
+/* Footer */
+.footer {
+    background-color: var(--dark-red);
+    color: var(--peach);
+    height: 20vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.footer input[type=text] {
+    background-color: var(--peach);
+    border:0;
+    border-radius: 0.75em;
+    color: var(--dark-red);
+    font-size: 1.25em;
+    padding: 0.5em;
+    text-align: center;
+    width: 50%;
+}
+
+.footer input[type=text]::placeholder{
+    color: var(--dark-red);
+    opacity: 0.5;
+}
+
+.footer input[type=text]:focus{
+    outline: none;
+}
+
 /* Landing Page */
 .section#one {
     background-color: var(--red);

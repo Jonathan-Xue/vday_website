@@ -29,3 +29,14 @@ document.querySelector("#webcam #overlay").addEventListener("click", () => {
   document.querySelector("#webcam #overlay").style.visibility = "hidden";
   document.querySelector("#webcam-caption").style.visibility = "visible";
 });
+
+// Easter Egg
+let input = document.querySelector(".footer input");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    if (input.value.toLowerCase() == "Annabelle".toLowerCase()) {
+      window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    }
+  }
+});

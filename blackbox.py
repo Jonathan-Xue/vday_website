@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 plt.gca().axes.xaxis.set_visible(False)
 plt.gca().axes.yaxis.set_visible(False)
 fig = plt.gcf()
-fig.set_size_inches( (11,7))
+fig.set_size_inches((11,7))
 
 # G
 g_x = [6, 2, 2, 6, 6, 4, 4]
