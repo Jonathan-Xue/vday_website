@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 # Uh oh! It seems like a little fox has jumped into Jonathan's life and scrambled up his priorities.
 # 
 # A variation of the Caesar Cipher is necessary to help decrypt the mess. Each letter in the original document
-# has been shifted backwards by a multitude (from one to twenty-fix) of its index. For example, the encrypted
-# string "abcd" decrypts into "adgj" assuming a multitude of two. String indices start from zero. The multiple
+# has been shifted backwards by a multiple (from one to twenty-six) of its index. For example, the encrypted
+# string "abcd" decrypts into "adgj" assuming a multiple of two. String indices start from zero. The multiple
 # is constant for every character in the string. Please help Jonathan figure out what he should be spending his
 # time on!
 # 
